@@ -10,7 +10,7 @@ export default async function handler(req, res) {
                                 res.setHeader('Access-Control-Allow-Origin', '*');
                                 res.status(200).json(JSON.stringify(def));
                         }
-                        var data = await fetch("http://89.111.175.178:13000", {
+                        var data = await fetch("http://89.108.83.252:3000", {
                                 method: 'POST',
                                 headers: {
                                         'Content-Type': 'application/json',

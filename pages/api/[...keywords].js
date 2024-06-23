@@ -7,7 +7,7 @@ export default async function handler(req, res) {
                                         url += "/" + req.query.keywords[index]
                                 }
                         }
-                        var data = await fetch("http://89.111.175.178:13000" + url, {
+                        var data = await fetch("http://89.108.83.252:3000" + url, {
                                 method: 'POST',
                                 headers: {
                                         'Content-Type': 'application/json',
@@ -34,7 +34,7 @@ export default async function handler(req, res) {
                                 }
                         }
 
-                        var data = await fetch("http://89.111.175.178:13000" + url, {
+                        var data = await fetch("http://89.108.83.252:3000" + url, {
                                 mode: 'cors',
                         });
 
